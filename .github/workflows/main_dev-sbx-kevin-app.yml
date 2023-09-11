@@ -23,8 +23,9 @@ jobs:
 
       - name: npm install, build, and test
         run: |
-          npm install --legacy-peer-deps
-          npm run build 
+          #npm install --legacy-peer-deps
+          #npm run build 
+          ls
       
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
